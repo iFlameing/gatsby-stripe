@@ -19,8 +19,8 @@ class Button extends React.Component {
             // Replace with the ID of your SKU
             {sku: 'sku_EzkAAKh62mNeK3', quantity: 1}
           ],
-          successUrl: 'http://localhost:8000/success',
-          cancelUrl: 'http://localhost:8000/cancel',
+          successUrl: 'http://tender-curie-d532dd.netlify.com/success',
+          cancelUrl: 'http://tender-curie-d532dd.netlify.com/cancel',
         }).then(function (result) {
           // If `redirectToCheckout` fails due to a browser or network
           // error, display the localized error message to your customer
